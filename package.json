@@ -59,6 +59,7 @@
     "helmet": "^3.6.1",
     "iconv-lite": "latest",
     "moment": "latest",
+    "python-shell": "^0.4.0",
     "request": "^2.81.0",
     "rrule-alt": "^2.2.5",
     "simple-git": "^1.73.0",

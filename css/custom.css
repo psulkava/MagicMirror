@@ -10,5 +10,24 @@
  *****************************************************/
 
  body {
- 	
+ 	margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
  }
+
+.normalBody {
+    height: calc(100% - 120px);
+    width: calc(100% - 120px);
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom:60px;
+}
+
+.region.bottomedge {
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}

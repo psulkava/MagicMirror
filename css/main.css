@@ -9,10 +9,9 @@ html {
 }
 
 body {
-  margin: 60px;
   position: absolute;
-  height: calc(100% - 120px);
-  width: calc(100% - 120px);
+  height: 100%;
+  width: 100%;
   background: #000;
   color: #aaa;
   font-family: "Roboto Condensed", sans-serif;
@@ -154,7 +153,6 @@ sup {
 }
 
 .region.top {
-  top: 0;
 }
 
 .region.top .container {
@@ -178,11 +176,10 @@ sup {
 .region.top.right,
 .region.top.left,
 .region.top.center {
-  top: 100%;
 }
 
 .region.bottom {
-  bottom: 0;
+  bottom: 60px;
 }
 
 .region.bottom .container {
@@ -200,13 +197,13 @@ sup {
 }
 
 .region.bar {
-  width: 100%;
+  width: calc(100% - 120px);
   text-align: center;
 }
 
 .region.third,
 .region.middle.center {
-  width: 100%;
+  width: calc(100% - 120px);
   text-align: center;
   -moz-transform: translateY(-50%);
   -o-transform: translateY(-50%);
@@ -216,7 +213,7 @@ sup {
 }
 
 .region.upper.third {
-  top: 33%;
+  top: 25%;
 }
 
 .region.middle.center {
@@ -224,7 +221,7 @@ sup {
 }
 
 .region.lower.third {
-  top: 66%;
+  top: 75%;
 }
 
 .region.left {
@@ -236,7 +233,7 @@ sup {
 }
 
 .region table {
-  width: 100%;
+  width: calc(100% - 120px);
   border-spacing: 0;
   border-collapse: separate;
 }
